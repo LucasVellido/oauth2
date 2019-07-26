@@ -34,6 +34,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .scopes("read", "write", "trust")
                 .accessTokenValiditySeconds(60)
                 .refreshTokenValiditySeconds(120);
+//                .redirectUris("http://localhost:8080/login","http://localhost:8080/oauth/token");
     }
 
     /*Neste caso estamos definindo que nossos tokens poderão ser gerados através de
