@@ -1,8 +1,12 @@
 package br.com.vellido.oauth2.domain;
 
 
+import org.springframework.security.core.GrantedAuthority;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Entity(name = "users")
 public class User implements Serializable {
